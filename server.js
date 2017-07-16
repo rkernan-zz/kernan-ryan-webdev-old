@@ -33,7 +33,7 @@ app.get('/api/undergraduate/session/:name/:value', function (req, res) {
 });
 
 app.set('view engine', 'ejs');
-require('./utilities/filelist');
+//require('./utilities/filelist');
 
 app.use(app.express.static(__dirname + '/public'));
 
