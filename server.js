@@ -71,4 +71,6 @@ var application = {
 };
 require('./lectures/graduate/wam')(application);
 
-app.listen(process.env.PORT || 3000);
+var port = process.env.PORT || 3000;
+
+app.listen(port);
